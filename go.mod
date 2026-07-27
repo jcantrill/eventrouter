@@ -1,6 +1,8 @@
 module github.com/openshift/eventrouter
 
-go 1.25.11
+go 1.25.0
+
+toolchain go1.26.5
 
 require (
 	github.com/IBM/sarama v1.46.3
